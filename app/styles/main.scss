@@ -12,7 +12,7 @@ body {
 
 .controller {
   width: 35.9em;
-  height: 14em;
+  height: 28.3em;;
   background-color: #EA0C0B;
   border-top-left-radius: 3% 7%;
   border-top-right-radius: 3% 7%;
@@ -38,7 +38,6 @@ body {
   border-bottom: 5px solid #040807;
   border-left: 3px solid #040807;
 }
-
 
 .key {
  transition:all .07s;
@@ -148,4 +147,36 @@ body {
 .b-key-10 {
   position: relative;
   left: 8.8em;
+}
+
+.pad-desk {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 32.55em;
+  height: 14.4em;
+  position: relative;
+  top: 2%;
+  left: 5%;
+  background-color: #3E3E40;
+  border-top-left-radius: 3% 7%;
+  border-top-right-radius: 3% 7%;
+  border-bottom-left-radius: 3% 7%;
+  border-bottom-right-radius: 3% 7%;
+  border-right: 3px solid #040807;
+  border-bottom: 5px solid #040807;
+  border-left: 3px solid #040807;
+}
+
+.pad {
+  min-width: 5em;
+  height: 5em;
+  margin-top: 3px;
+  padding: 0.8em;
+  background-color: #040807 ;
+  position: relative;
+  border-radius: 5px;
+  border-right: 3px solid #d3d3d3;
+  border-bottom: 5px solid #d3d3d3;
+  border-left: 3px solid #d3d3d3;
 }
