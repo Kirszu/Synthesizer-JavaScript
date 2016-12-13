@@ -1,0 +1,143 @@
+// bower:scss
+// endbower
+.controller {
+  width: 35.9em;;
+  height: 14em;
+  margin-top: 1%;
+  margin-left: 40%;
+  background-color: #EA0C0B;
+  border-top-left-radius: 3% 7%;
+  border-top-right-radius: 3% 7%;
+  border-bottom-left-radius: 3% 7%;
+  border-bottom-right-radius: 3% 7%;
+  border-right: 0.1875em solid #960502;
+  border-bottom: 0.375em solid #960502;
+  border-left: 0.1875em solid #960502;
+}
+
+.keyboard {
+  width: 32.55em;
+  height: 12.6em;
+  position: relative;
+  top: 2%;
+  left: 5%;
+  background-color: #3E3E40;
+  border-top-left-radius: 3% 7%;
+  border-top-right-radius: 3% 7%;
+  border-bottom-left-radius: 3% 7%;
+  border-bottom-right-radius: 3% 7%;
+  border-right: 3px solid #040807;
+  border-bottom: 5px solid #040807;
+  border-left: 3px solid #040807;
+}
+
+
+.key {
+ transition:all .07s;
+
+}
+.playing {
+  transform:scale(1.1);
+  border-color:#ffc600;
+  box-shadow: 0 0 10px #ffc600;
+}
+
+.white-keys {
+  margin-top: 0.3%;
+  margin-left: 1.92%;
+  position: relative;
+  z-index: 1;
+  float: left;
+  clear: right;
+}
+
+.w-key {
+  width: 1.8em;
+  height: 12em;
+  background-color: #eee;
+  display: inline-block;
+  margin: 0.1em 0em;
+  border-top-left-radius: 20% 4%;
+  border-top-right-radius: 20% 4%;
+  border-bottom-left-radius: 20% 4%;
+  border-bottom-right-radius: 20% 4%;
+  position: relative;
+}
+
+.w-key-inside {
+  width: 1.4em;
+  height: 11.5em;
+  background-color: #fff;
+  position: relative;
+  left: 0.2em;
+  border-radius: 5px;
+}
+
+.black-keys {
+  position: absolute;
+  margin-top: 0.6%;
+  margin-left: 5%;
+  z-index: 2;
+  float: left;
+  clear: left;
+}
+
+.b-key {
+  width: 1.8em;
+  height: 7.2em;
+  background-color: #0f0f0f;
+  display: inline-block;
+  margin-left: 0em;
+  border-top-left-radius: 20% 4%;
+  border-top-right-radius: 20% 4%;
+  border-bottom-left-radius: 20% 4%;
+  border-bottom-right-radius: 20% 4%;
+  z-index: 2;
+  float: left;
+}
+
+.b-key-inside {
+  width: 1.4em;
+  height: 6.8em;
+  background-color: #232323;
+  position: relative;
+  left: 0.2em;
+  border-radius: 5px;
+}
+
+.b-key-2 {
+  position: relative;
+  left: 0.6em;
+}
+.b-key-3 {
+  position: relative;
+  left: 2.4em;
+}
+.b-key-4 {
+  position: relative;
+  left: 2.91em;
+}
+.b-key-5 {
+  position: relative;
+  left: 3.3em;
+}
+.b-key-6 {
+  position: relative;
+  left: 5.4em;
+}
+.b-key-7 {
+  position: relative;
+  left: 5.9em;
+}
+.b-key-8 {
+  position: relative;
+  left: 7.8em;
+}
+.b-key-9 {
+  position: relative;
+  left: 8.4em;
+}
+.b-key-10 {
+  position: relative;
+  left: 8.8em;
+}
