@@ -7,8 +7,29 @@ body {
   position: absolute;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   background: pink;
+}
+
+.manual {
+  background-color: #fff;
+  margin: 1%;
+  border: solid;
+  border-top-left-radius: 3% 7%;
+  border-top-right-radius: 3% 7%;
+  border-bottom-left-radius: 3% 7%;
+  border-bottom-right-radius: 3% 7%;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  span {
+    align-self: center;
+  }
+  ul {
+      list-style-type: none;
+      padding: 1%;
+  }
 }
 
 .controller {
